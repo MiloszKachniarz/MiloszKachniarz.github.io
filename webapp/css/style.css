@@ -1,0 +1,70 @@
+/* Enter your custom styles here */
+.background {
+    background: #555555;
+}
+
+.white-text {
+    color: white;
+}
+
+.margin-left {
+    margin-left: 2rem;
+}
+
+.headerMargins {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.marginTop {
+    margin-top: 0.5rem;
+}
+
+.marginLeft {
+    margin-left: 0.5rem
+}
+
+.imageFrame {
+    border: 1px solid #fafafa;
+}
+
+.bullet {
+    display: list-item;
+    list-style-type: disc;
+    /* list-style-position: outside; */
+    /* margin-left: 20px; */
+}
+
+.biggerFont {
+    font-size: 1rem;
+}
+
+html.sap-desktop .sapMScrollContV::-webkit-scrollbar {
+    display: none !important;
+}
+
+html.sap-desktop:not(.sapUiNativeScrollbars) ::-webkit-scrollbar-corner {
+    background-color: #1c2228;
+}
+html.sap-desktop:not(.sapUiNativeScrollbars) ::-webkit-scrollbar-thumb {
+    border-radius: 0rem;
+}
+html.sap-desktop:not(.sapUiNativeScrollbars) ::-webkit-scrollbar-thumb {
+    background-color: #1c2228;
+}
+
+html.sap-desktop:not(.sapUiNativeScrollbars) ::-webkit-scrollbar-thumb:hover {
+    background-color: #1c2228;
+}
+
+html.sap-desktop:not(.sapUiNativeScrollbars) ::-webkit-scrollbar {
+    background-color: #1c2228;
+}
+
+/* .sapUiRespGrid.sapUiRespGridHSpace1>div {
+    margin: 0 0 0 0rem !important
+}
+
+.sapUiRespGrid.sapUiRespGridHSpace1 {
+    margin: 0 0 0 0rem !important
+} */
