@@ -1,4 +1,3 @@
-/* Enter your custom styles here */
 .background {
     background: #555555;
 }
@@ -31,8 +30,6 @@
 .bullet {
     display: list-item;
     list-style-type: disc;
-    /* list-style-position: outside; */
-    /* margin-left: 20px; */
 }
 
 .biggerFont {
@@ -60,11 +57,3 @@ html.sap-desktop:not(.sapUiNativeScrollbars) ::-webkit-scrollbar-thumb:hover {
 html.sap-desktop:not(.sapUiNativeScrollbars) ::-webkit-scrollbar {
     background-color: #1c2228;
 }
-
-/* .sapUiRespGrid.sapUiRespGridHSpace1>div {
-    margin: 0 0 0 0rem !important
-}
-
-.sapUiRespGrid.sapUiRespGridHSpace1 {
-    margin: 0 0 0 0rem !important
-} */
