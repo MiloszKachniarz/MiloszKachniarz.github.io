@@ -20,7 +20,7 @@
                                     </items>
                                 </VBox>
                                 <!-- </FlexBox> -->
-                                <Panel headerText="Technical skills">
+                                <Panel headerText="Technical skills" class="marginTop">
                                     <l:Grid defaultSpan="XL6 L6 M12 S12">
                                         <Text text="SAPUI5"/>
                                         <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
@@ -39,7 +39,7 @@
                                         <Text text="SAP HCM"/>
                                         <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="SAP BTP"/>
-                                        <RatingIndicator maxValue="5" value="3" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
+                                        <RatingIndicator maxValue="5" value="2" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="Selenium"/>
                                         <RatingIndicator maxValue="5" value="2" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="Atlassian"/>
@@ -94,19 +94,44 @@
                                     <items>
                                         <VBox class="headerMargins">
                                             <Title titleStyle="H1" text="Miłosz Kachniarz"/>
-                                            <Text class="biggerFont" text="SAP developer with over 4 years experience. Specialises in HCM module. Enthusiast of web development, focusing on frontend side of SAP, especially UI5.
+                                            <Text class="biggerFont" text="SAP developer with over 5 years experience. Specialises in HCM module. Enthusiast of web development, focusing on frontend side of SAP, especially UI5.
                                                         Aiming to deliver easy to use, intuitive and pleasing to the eye applications. Always trying to keep code quality on a high level.
                                                         Believing that diversification of activities helps to develop, learn new things and avoid getting bored with single topic,
                                                          always happy to take new challanges in areas other than frontend development. "/>
                                         </VBox>
                                         <Panel headerText="Experience">
                                             <List>
+                                            <CustomListItem>
+                                                    <HBox class="sapUiSmallMargin">
+                                                        <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/capgemini_logo_circle_2.png" width="3rem" />
+                                                        <VBox class="sapUiTinyMargin">
+                                                            <Title titleStyle="H4" text="Capgemini, 2022-present"/>
+                                                            <Title titleStyle="H5" text="Senior SAP Developer"/>
+                                                            <VBox class="sapUiSmallMargin">
+                                                                <Text class="bullet biggerFont" text="Taking over management tasks in projects"/>
+                                                                <Text class="bullet biggerFont" text="Taking role of internal supervisor of WebDynpro and HCM skills"/>
+                                                                <Text class="bullet biggerFont" text="Having direct consultations and setting team goals with client"/>
+                                                                <Text class="bullet biggerFont" text="Taking role of lead frontend developer"/>
+                                                                <Text class="bullet biggerFont" text="Designing, developing and maintaining UI5 apps, 
+                                                                                            WebDynpro ABAP apps and ABAP reports"/>
+                                                                <Text class="bullet biggerFont" text="Taking part in build and maintenance projects"/>
+                                                                <Text class="bullet biggerFont" text="Extending standard WebDynpros and transactions"/>
+                                                                <Text class="bullet biggerFont" text="Creating SmartForms"/>
+                                                                <Text class="bullet biggerFont" text="Investigating and solving problems reported by clients"/>
+                                                                <Text class="bullet biggerFont" text="Taking part in projects for multiple clients"/>
+                                                                <Text class="bullet biggerFont" text="Mentoring junior colleagues"/>
+                                                                <Text class="bullet biggerFont" text="Conducting KT sessions for new fellows in projects"/>
+                                                                <Text class="bullet biggerFont" text="Conducting intenrla knowledge sharing sessions"/>
+                                                            </VBox>
+                                                        </VBox>
+                                                    </HBox>
+                                                </CustomListItem>
                                                 <CustomListItem>
                                                     <HBox class="sapUiSmallMargin">
                                                         <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/capgemini_logo_circle_2.png" width="3rem" />
                                                         <VBox class="sapUiTinyMargin">
                                                             <Title titleStyle="H4" text="Capgemini, 2019-present"/>
-                                                            <Title titleStyle="H5" text="Application consultant (developer)"/>
+                                                            <Title titleStyle="H5" text="SAP Developer"/>
                                                             <VBox class="sapUiSmallMargin">
                                                                 <Text class="bullet biggerFont" text="Designing, developing and maintaining UI5 apps, 
                                                                                             WebDynpro ABAP apps and ABAP reports"/>
@@ -115,10 +140,11 @@
                                                                 <Text class="bullet biggerFont" text="Developing CDS views and RAP services"/>
                                                                 <Text class="bullet biggerFont" text="Finding workarounds for imperfect standard implementations"/>
                                                                 <Text class="bullet biggerFont" text="Taking role of lead frontend developer"/>
-                                                                <Text class="bullet biggerFont" text="Taking part in projects for multiple clients"/>
                                                                 <Text class="bullet biggerFont" text="Investigating and solving problems reported by clients"/>
+                                                                <Text class="bullet biggerFont" text="Taking part in projects for multiple clients"/>
                                                                 <Text class="bullet biggerFont" text="Mentoring junior colleagues"/>
                                                                 <Text class="bullet biggerFont" text="Conducting KT sessions for new fellows in projects"/>
+                                                                <Text class="bullet biggerFont" text="Conducting intenrla knowledge sharing sessions"/>
                                                             </VBox>
                                                         </VBox>
                                                     </HBox>
@@ -128,7 +154,7 @@
                                                         <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/gavdi_logo_circle.png" width="3rem" />
                                                         <VBox class="sapUiTinyMargin">
                                                             <Title titleStyle="H4" text="Gavdi, 2017-2019"/>
-                                                            <Title titleStyle="H5" text="Junior SAP developer"/>
+                                                            <Title titleStyle="H5" text="Junior SAP Developer"/>
                                                             <VBox class="sapUiSmallMargin">
                                                                 <Text class="bullet biggerFont" text="Developing ABAP reports"/>
                                                                 <Text class="bullet biggerFont" text="Developing both Gateway backend and UI5 side of Fiori apps"/>
