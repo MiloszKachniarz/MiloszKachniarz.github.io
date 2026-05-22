@@ -15,7 +15,7 @@
                             <items>
                                 <VBox>
                                     <items>
-                                        <Image src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/selfie.png" width="70%" class="sapUiMediumMargin imageFrame"/>
+                                        <Image src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/selfie4.png" width="70%" class="sapUiMediumMargin imageFrame"/>
                                     </items>
                                 </VBox>
                                 <Panel headerText="Technical skills" class="marginTop">
@@ -61,7 +61,9 @@
                                         <Text text="English"/>
                                         <RatingIndicator maxValue="5" value="5" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="German"/>
-                                        <RatingIndicator maxValue="5" value="2" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
+                                        <RatingIndicator maxValue="5" value="3" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
+                                        <Text text="Spanish"/>
+                                        <RatingIndicator maxValue="5" value="1" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="French"/>
                                         <RatingIndicator maxValue="5" value="1" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="Russian"/>
@@ -87,7 +89,7 @@
                                     <items>
                                         <VBox class="headerMargins">
                                             <Title titleStyle="H1" text="Miłosz Kachniarz"/>
-                                            <Text class="biggerFont" text="SAP developer with over 5 years experience. Specialises in HCM module. Enthusiast of web development, focusing on frontend side of SAP, especially UI5.
+                                            <Text class="biggerFont" text="SAP developer with over 8 years experience. Specialises in HCM module, gaining skills in Banking Services. Enthusiast of web development, focusing on frontend side of SAP, especially UI5.
                                                         Aiming to deliver easy to use, intuitive and pleasing to the eye applications. Always trying to keep code quality on a high level.
                                                         Believing that diversification of activities helps to develop, learn new things and avoid getting bored with single topic,
                                                          always happy to take new challanges in areas other than frontend development. "/>
@@ -96,9 +98,28 @@
                                             <List>
                                             <CustomListItem>
                                                     <HBox class="sapUiSmallMargin">
+                                                        <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/axxiome_logo.png" width="3rem" />
+                                                        <VBox class="sapUiTinyMargin">
+                                                            <Title titleStyle="H4" text="Axxiome, 2022-present"/>
+                                                            <Title titleStyle="H5" text="Senior SAP Developer"/>
+                                                            <VBox class="sapUiSmallMargin">
+                                                                <Text class="bullet biggerFont" text="R&amp;D in SAP BTP and Cloud topics"/>
+                                                                <Text class="bullet biggerFont" text="Taking role of internal supervisor of Fiori and SAP Cloud skills"/>
+                                                                <Text class="bullet biggerFont" text="Mentoring junior colleagues"/>
+                                                                <Text class="bullet biggerFont" text="Conducting internal knowledge sharing sessions"/>
+                                                                <Text class="bullet biggerFont" text="Working directly with client, also onsite"/>
+                                                                <Text class="bullet biggerFont" text="Long term cooperation with client on big Fiori integration project"/>
+                                                                <Text class="bullet biggerFont" text="Supporting client during go-live"/>
+                                                                <Text class="bullet biggerFont" text="Lead developer in migration project"/>
+                                                            </VBox>
+                                                        </VBox>
+                                                    </HBox>
+                                                </CustomListItem>
+                                            <CustomListItem>
+                                                    <HBox class="sapUiSmallMargin">
                                                         <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/capgemini_logo_circle_2.png" width="3rem" />
                                                         <VBox class="sapUiTinyMargin">
-                                                            <Title titleStyle="H4" text="Capgemini, 2022-present"/>
+                                                            <Title titleStyle="H4" text="Capgemini, 2022"/>
                                                             <Title titleStyle="H5" text="Senior SAP Developer"/>
                                                             <VBox class="sapUiSmallMargin">
                                                                 <Text class="bullet biggerFont" text="Taking over management tasks in projects"/>
@@ -204,6 +225,24 @@
                                         </Panel>
                                         <Panel headerText="Certificates">
                                             <List>
+                                                <CustomListItem>
+                                                    <HBox class="sapUiSmallMargin">
+                                                        <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/sap_logo_circle.png" width="3rem" />
+                                                        <VBox class="sapUiTinyMargin">
+                                                            <Title titleStyle="H4" text="SAP Certified - SAP Fiori Application Developer"/>
+                                                            <Text class="biggerFont" text="08.12.2025"/>
+                                                        </VBox>
+                                                    </HBox>
+                                                </CustomListItem>
+                                                <CustomListItem>
+                                                    <HBox class="sapUiSmallMargin">
+                                                        <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/sap_logo_circle.png" width="3rem" />
+                                                        <VBox class="sapUiTinyMargin">
+                                                            <Title titleStyle="H4" text="SAP Certified - Backend Developer - ABAP Cloud"/>
+                                                            <Text class="biggerFont" text="25.11.2025"/>
+                                                        </VBox>
+                                                    </HBox>
+                                                </CustomListItem>
                                                 <CustomListItem>
                                                     <HBox class="sapUiSmallMargin">
                                                         <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/itil_logo_circle.png" width="3rem" />
