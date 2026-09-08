@@ -2,11 +2,12 @@
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m"
     xmlns:l="sap.ui.layout"
+    xmlns:form="sap.ui.layout.form"
     xmlns:core="sap.ui.core">
     <Shell id="shell" appWidthLimited="true">
         <App id="app">
             <pages>
-                <Page id="page" title="{i18n>title}" showHeader="false">                    
+                <Page id="page" title="{i18n>title}" showHeader="false">
                     <l:Grid>
                         <VBox>
                             <layoutData>
@@ -15,31 +16,35 @@
                             <items>
                                 <VBox>
                                     <items>
-                                        <Image src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/selfie4.png" width="70%" class="sapUiMediumMargin imageFrame"/>
+                                        <Image src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/selfie4.jpg" width="80%" class="sapUiMediumMargin imageFrame"/>
                                     </items>
                                 </VBox>
                                 <Panel headerText="Technical skills" class="marginTop">
                                     <l:Grid defaultSpan="XL6 L6 M12 S12">
                                         <Text text="SAPUI5"/>
-                                        <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
+                                        <RatingIndicator maxValue="5" value="5" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="JavaScript"/>
-                                        <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
+                                        <RatingIndicator maxValue="5" value="5" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="ABAP OO"/>
                                         <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="OData"/>
+                                        <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
+                                        <Text text="SAP BTP"/>
                                         <RatingIndicator maxValue="5" value="3" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
-                                        <Text text="CDS views"/>
-                                        <RatingIndicator maxValue="5" value="1" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
+                                        <Text text="SAP RAP"/>
+                                        <RatingIndicator maxValue="5" value="3" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
+                                        <Text text="SAP HCM"/>
+                                        <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
+                                        <Text text="SAP BP"/>
+                                        <RatingIndicator maxValue="5" value="3" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
+                                        <Text text="SAP DM"/>
+                                        <RatingIndicator maxValue="5" value="2" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="WebDynpro"/>
                                         <RatingIndicator maxValue="5" value="3" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="SmartForms"/>
                                         <RatingIndicator maxValue="5" value="3" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
-                                        <Text text="SAP HCM"/>
-                                        <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
-                                        <Text text="SAP BTP"/>
-                                        <RatingIndicator maxValue="5" value="2" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="Selenium"/>
-                                        <RatingIndicator maxValue="5" value="2" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
+                                        <RatingIndicator maxValue="5" value="3" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="Atlassian"/>
                                         <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                     </l:Grid>
@@ -49,7 +54,7 @@
                                         <Text text="Teamwork"/>
                                         <RatingIndicator maxValue="5" value="5" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="Presenting"/>
-                                        <RatingIndicator maxValue="5" value="4" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
+                                        <RatingIndicator maxValue="5" value="5" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="Organization"/>
                                         <RatingIndicator maxValue="5" value="5" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                     </l:Grid>
@@ -66,16 +71,15 @@
                                         <RatingIndicator maxValue="5" value="1" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                         <Text text="French"/>
                                         <RatingIndicator maxValue="5" value="1" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
-                                        <Text text="Russian"/>
-                                        <RatingIndicator maxValue="5" value="1" iconUnselected="sap-icon://circle-task" iconSelected="sap-icon://circle-task-2" displayOnly="true"/>
                                     </l:Grid>
                                 </Panel>
                                 <Panel headerText="Interests">
                                     <l:Grid defaultSpan="XL12 L12 M12 S12">
-                                        <Text text="Dioramas and minis"/>
-                                        <Text text="Design"/>
+                                        <Text text="Crafting &amp; dioramas"/>
+                                        <Text text="Design &amp; renovation"/>
                                         <Text text="Cooking"/>
-                                        <Text text="Sports"/>
+                                        <Text text="Playing music"/>
+                                        <Text text="Playing sports"/>
                                     </l:Grid>
                                 </Panel>
                             </items>
@@ -89,14 +93,28 @@
                                     <items>
                                         <VBox class="headerMargins">
                                             <Title titleStyle="H1" text="Miłosz Kachniarz"/>
-                                            <Text class="biggerFont" text="SAP developer with over 8 years experience. Specialises in HCM module, gaining skills in Banking Services. Enthusiast of web development, focusing on frontend side of SAP, especially UI5.
-                                                        Aiming to deliver easy to use, intuitive and pleasing to the eye applications. Always trying to keep code quality on a high level.
-                                                        Believing that diversification of activities helps to develop, learn new things and avoid getting bored with single topic,
-                                                         always happy to take new challanges in areas other than frontend development. "/>
+                                            <form:SimpleForm editable="false" labelSpanL="6" labelSpanM="4" layout="ResponsiveGridLayout">
+                                                <Label text="Main area"/>
+                                                <Text text="SAP"/>
+                                                <Label text="Experience"/>
+                                                <Text text="over 9 years"/>
+                                                <Label text="Most experienced with modules"/>
+                                                <Text text="HCM, Banking Services (Deposit Managemnt, Business Partner)"/>
+                                                <Label text="Favourite area"/>
+                                                <Text text="web development, especially UI5 frontend"/>
+                                                <Label text="Main focus"/>
+                                                <Text text="to implement intuitive and easy to use apps with proper UX, to write maintainable code and to always deliver"/>
+                                                <Label text="Dream project"/>
+                                                <Text text="UI5/fullstack Fiori/BTP"/>
+                                                <Label text="Nightmare project"/>
+                                                <Text text="oldschool ABAP for a few years with no other more modern parallel project"/>
+                                                <Label text="Eager to learn new things"/>
+                                                <Text text="100%"/>
+                                            </form:SimpleForm>
                                         </VBox>
                                         <Panel headerText="Experience">
                                             <List>
-                                            <CustomListItem>
+                                                <CustomListItem>
                                                     <HBox class="sapUiSmallMargin">
                                                         <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/axxiome_logo.png" width="3rem" />
                                                         <VBox class="sapUiTinyMargin">
@@ -104,18 +122,19 @@
                                                             <Title titleStyle="H5" text="Senior SAP Developer"/>
                                                             <VBox class="sapUiSmallMargin">
                                                                 <Text class="bullet biggerFont" text="R&amp;D in SAP BTP and Cloud topics"/>
-                                                                <Text class="bullet biggerFont" text="Taking role of internal supervisor of Fiori and SAP Cloud skills"/>
-                                                                <Text class="bullet biggerFont" text="Mentoring junior colleagues"/>
+                                                                <Text class="bullet biggerFont" text="Internal supervisor of Fiori and SAP Cloud skills"/>
                                                                 <Text class="bullet biggerFont" text="Conducting internal knowledge sharing sessions"/>
-                                                                <Text class="bullet biggerFont" text="Working directly with client, also onsite"/>
-                                                                <Text class="bullet biggerFont" text="Long term cooperation with client on big Fiori integration project"/>
+                                                                <Text class="bullet biggerFont" text="Working directly with client, including onsite"/>
+                                                                <Text class="bullet biggerFont" text="Long term cooperation with client on big Fiori BP integration project"/>
                                                                 <Text class="bullet biggerFont" text="Supporting client during go-live"/>
-                                                                <Text class="bullet biggerFont" text="Lead developer in migration project"/>
+                                                                <Text class="bullet biggerFont" text="Lead developer in DM migration project"/>
+                                                                <Text class="bullet biggerFont" text="Working in german- and english-speaking projects"/>
+                                                                <Text class="bullet biggerFont" text="Mentoring junior colleagues"/>
                                                             </VBox>
                                                         </VBox>
                                                     </HBox>
                                                 </CustomListItem>
-                                            <CustomListItem>
+                                                <CustomListItem>
                                                     <HBox class="sapUiSmallMargin">
                                                         <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/capgemini_logo_circle_2.png" width="3rem" />
                                                         <VBox class="sapUiTinyMargin">
@@ -196,7 +215,7 @@
                                                             </VBox>
                                                         </VBox>
                                                     </HBox>
-                                                </CustomListItem>                                                
+                                                </CustomListItem>
                                             </List>
                                         </Panel>
                                         <Panel headerText="Education">
