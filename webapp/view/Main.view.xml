@@ -19,6 +19,16 @@
                                         <Image src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/selfie4.jpg" width="80%" class="sapUiMediumMargin imageFrame"/>
                                     </items>
                                 </VBox>
+                                <Panel headerText="Contact" class="marginTop" visible="false">
+                                    <HBox class="marginTop" >
+                                        <core:Icon src="sap-icon://email"/>
+                                        <Text class="marginLeft" text=""/>
+                                    </HBox>
+                                    <HBox class="marginTop">
+                                        <core:Icon src="sap-icon://call"/>
+                                        <Text class="marginLeft" text=""/>
+                                    </HBox>
+                                </Panel>
                                 <Panel headerText="Technical skills" class="marginTop">
                                     <l:Grid defaultSpan="XL6 L6 M12 S12">
                                         <Text text="SAPUI5"/>
@@ -138,34 +148,12 @@
                                                     <HBox class="sapUiSmallMargin">
                                                         <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/capgemini_logo_circle_2.png" width="3rem" />
                                                         <VBox class="sapUiTinyMargin">
-                                                            <Title titleStyle="H4" text="Capgemini, 2022"/>
-                                                            <Title titleStyle="H5" text="Senior SAP Developer"/>
+                                                            <Title titleStyle="H4" text="Capgemini, 2019-2022"/>
+                                                            <Title titleStyle="H5" text="SAP Developer/Senior SAP Developer"/>
                                                             <VBox class="sapUiSmallMargin">
                                                                 <Text class="bullet biggerFont" text="Taking over management tasks in projects"/>
                                                                 <Text class="bullet biggerFont" text="Taking role of internal supervisor of WebDynpro and HCM skills"/>
                                                                 <Text class="bullet biggerFont" text="Having direct consultations and setting team goals with client"/>
-                                                                <Text class="bullet biggerFont" text="Taking role of lead frontend developer"/>
-                                                                <Text class="bullet biggerFont" text="Designing, developing and maintaining UI5 apps, 
-                                                                                            WebDynpro ABAP apps and ABAP reports"/>
-                                                                <Text class="bullet biggerFont" text="Taking part in build and maintenance projects"/>
-                                                                <Text class="bullet biggerFont" text="Extending standard WebDynpros and transactions"/>
-                                                                <Text class="bullet biggerFont" text="Creating SmartForms"/>
-                                                                <Text class="bullet biggerFont" text="Investigating and solving problems reported by clients"/>
-                                                                <Text class="bullet biggerFont" text="Taking part in projects for multiple clients"/>
-                                                                <Text class="bullet biggerFont" text="Mentoring junior colleagues"/>
-                                                                <Text class="bullet biggerFont" text="Conducting KT sessions for new fellows in projects"/>
-                                                                <Text class="bullet biggerFont" text="Conducting internal knowledge sharing sessions"/>
-                                                            </VBox>
-                                                        </VBox>
-                                                    </HBox>
-                                                </CustomListItem>
-                                                <CustomListItem>
-                                                    <HBox class="sapUiSmallMargin">
-                                                        <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/capgemini_logo_circle_2.png" width="3rem" />
-                                                        <VBox class="sapUiTinyMargin">
-                                                            <Title titleStyle="H4" text="Capgemini, 2019-2022"/>
-                                                            <Title titleStyle="H5" text="SAP Developer"/>
-                                                            <VBox class="sapUiSmallMargin">
                                                                 <Text class="bullet biggerFont" text="Designing, developing and maintaining UI5 apps, 
                                                                                             WebDynpro ABAP apps and ABAP reports"/>
                                                                 <Text class="bullet biggerFont" text="Extending standard WebDynpros and transactions"/>
@@ -175,9 +163,10 @@
                                                                 <Text class="bullet biggerFont" text="Taking role of lead frontend developer"/>
                                                                 <Text class="bullet biggerFont" text="Investigating and solving problems reported by clients"/>
                                                                 <Text class="bullet biggerFont" text="Taking part in projects for multiple clients"/>
+                                                                <Text class="bullet biggerFont" text="Taking part in build and maintenance projects"/>
                                                                 <Text class="bullet biggerFont" text="Mentoring junior colleagues"/>
                                                                 <Text class="bullet biggerFont" text="Conducting KT sessions for new fellows in projects"/>
-                                                                <Text class="bullet biggerFont" text="Conducting intenrla knowledge sharing sessions"/>
+                                                                <Text class="bullet biggerFont" text="Conducting internal knowledge sharing sessions"/>
                                                             </VBox>
                                                         </VBox>
                                                     </HBox>
