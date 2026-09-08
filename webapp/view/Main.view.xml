@@ -7,9 +7,9 @@
     <Shell id="shell" appWidthLimited="true">
         <App id="app">
             <pages>
-                <Page id="page" title="{i18n>title}" showHeader="false">
+                <Page id="page" title="{i18n>title}" showHeader="false" class="hideScrollbar">
                     <l:Grid>
-                        <VBox>
+                        <VBox class="hideScrollbar">
                             <layoutData>
                                 <l:GridData span="XL3 L3 M3 S12"/>
                             </layoutData>
@@ -84,7 +84,7 @@
                                 </Panel>
                             </items>
                         </VBox>
-                        <ScrollContainer >
+                        <ScrollContainer class="hideScrollbar">
                             <layoutData>
                                 <l:GridData span="XL8 L8 M8 S12"/>
                             </layoutData>
@@ -217,31 +217,7 @@
                                                     </HBox>
                                                 </CustomListItem>
                                             </List>
-                                        </Panel>
-                                        <Panel headerText="Education">
-                                            <List>
-                                                <CustomListItem>
-                                                    <HBox class="sapUiSmallMargin">
-                                                        <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/pwr_logo_big.png" width="3rem" />
-                                                        <VBox class="sapUiTinyMargin">
-                                                            <Title titleStyle="H4" text="Wrocław University of Science and Technology, 2016 - 2017"/>
-                                                            <Text class="biggerFont" text="Master of Engineering"/>
-                                                            <Text class="biggerFont" text="Speciality: Informatic Systems Engineering"/>
-                                                        </VBox>
-                                                    </HBox>
-                                                </CustomListItem>
-                                                <CustomListItem>
-                                                    <HBox class="sapUiSmallMargin">
-                                                        <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/pwr_logo_big.png" width="3rem" />
-                                                        <VBox class="sapUiTinyMargin">
-                                                            <Title titleStyle="H4" text="Wrocław University of Science and Technology, 2012 - 2016"/>
-                                                            <Text class="biggerFont" text="Bachelor of Engineering"/>
-                                                            <Text class="biggerFont" text="Speciality: Informatic Systems Engineering"/>
-                                                        </VBox>
-                                                    </HBox>
-                                                </CustomListItem>
-                                            </List>
-                                        </Panel>
+                                        </Panel>                                        
                                         <Panel headerText="Certificates">
                                             <List>
                                                 <CustomListItem>
@@ -268,6 +244,30 @@
                                                         <VBox class="sapUiTinyMargin">
                                                             <Title titleStyle="H4" text="ITIL Foundation Certificate in IT Service Management"/>
                                                             <Text class="biggerFont" text="10.2020"/>
+                                                        </VBox>
+                                                    </HBox>
+                                                </CustomListItem>
+                                            </List>
+                                        </Panel>
+                                        <Panel headerText="Education">
+                                            <List>
+                                                <CustomListItem>
+                                                    <HBox class="sapUiSmallMargin">
+                                                        <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/pwr_logo_big.png" width="3rem" />
+                                                        <VBox class="sapUiTinyMargin">
+                                                            <Title titleStyle="H4" text="Wrocław University of Science and Technology, 2016 - 2017"/>
+                                                            <Text class="biggerFont" text="Master of Engineering"/>
+                                                            <Text class="biggerFont" text="Speciality: Informatic Systems Engineering"/>
+                                                        </VBox>
+                                                    </HBox>
+                                                </CustomListItem>
+                                                <CustomListItem>
+                                                    <HBox class="sapUiSmallMargin">
+                                                        <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/pwr_logo_big.png" width="3rem" />
+                                                        <VBox class="sapUiTinyMargin">
+                                                            <Title titleStyle="H4" text="Wrocław University of Science and Technology, 2012 - 2016"/>
+                                                            <Text class="biggerFont" text="Bachelor of Engineering"/>
+                                                            <Text class="biggerFont" text="Speciality: Informatic Systems Engineering"/>
                                                         </VBox>
                                                     </HBox>
                                                 </CustomListItem>

@@ -41,19 +41,28 @@ html.sap-desktop .sapMScrollContV::-webkit-scrollbar {
 }
 
 html.sap-desktop:not(.sapUiNativeScrollbars) ::-webkit-scrollbar-corner {
-    background-color: #1c2228;
+    background-color: #1c2228 !important;
 }
 html.sap-desktop:not(.sapUiNativeScrollbars) ::-webkit-scrollbar-thumb {
-    border-radius: 0rem;
+    border-radius: 0rem !important;
 }
 html.sap-desktop:not(.sapUiNativeScrollbars) ::-webkit-scrollbar-thumb {
-    background-color: #1c2228;
+    background-color: #1c2228 !important;
 }
 
 html.sap-desktop:not(.sapUiNativeScrollbars) ::-webkit-scrollbar-thumb:hover {
-    background-color: #1c2228;
+    background-color: #1c2228 !important;
 }
 
 html.sap-desktop:not(.sapUiNativeScrollbars) ::-webkit-scrollbar {
-    background-color: #1c2228;
+    background-color: #1c2228 !important;
+}
+
+.hideScrollbar {
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+}
+
+.hideScrollbar::-webkit-scrollbar {
+    display: none !important;
 }
