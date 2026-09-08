@@ -163,7 +163,7 @@
                                                     <HBox class="sapUiSmallMargin">
                                                         <Image class="marginTop" src="https://raw.githubusercontent.com/MiloszKachniarz/MiloszKachniarz.github.io/main/webapp/img/capgemini_logo_circle_2.png" width="3rem" />
                                                         <VBox class="sapUiTinyMargin">
-                                                            <Title titleStyle="H4" text="Capgemini, 2019-present"/>
+                                                            <Title titleStyle="H4" text="Capgemini, 2019-2022"/>
                                                             <Title titleStyle="H5" text="SAP Developer"/>
                                                             <VBox class="sapUiSmallMargin">
                                                                 <Text class="bullet biggerFont" text="Designing, developing and maintaining UI5 apps, 
